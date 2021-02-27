@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #01161E;
+}
+
+header {
+    background-color: #124559;
+    color: #fff;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+header h1,
+header p{
+    margin: 0;
+}
+
+header img{
+    max-width: 100%;
+    max-height: 200px;
+    vertical-align: bottom;
+}

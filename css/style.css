@@ -23,3 +23,16 @@ header img{
     max-height: 200px;
     vertical-align: bottom;
 }
+
+h2{
+    background-color: #598392;
+    text-align: center;
+    padding: 8px 0;
+}
+
+footer{
+    padding: 32px 0;
+    background-color: #124559;
+    color: #fff;
+    text-align: center;
+}

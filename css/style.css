@@ -49,7 +49,7 @@ h2 {
 /* テーブル */
 
 table {
-    width : 450px;
+    width : 75%;
     margin: 2em auto;
     border-collapse: collapse;
     border: solid 2px #598392;
@@ -69,7 +69,7 @@ table th{
 /* すきなものボックス */
 
 .likeBox {
-    width : 450px;
+    width : 75%;
     position: relative;
     margin: 2em auto;
     padding: 0.5em 1em;
@@ -96,7 +96,7 @@ table th{
 /* にがてなものボックス */
 
 .dislikeBox {
-    width : 450px;
+    width : 75%;
     position: relative;
     margin: 2em auto;
     padding: 0.5em 1em;

@@ -5,12 +5,15 @@ body{
     color: #01161E;
 }
 
+/* ヘッダー */
+
 header {
     background-color: #124559;
     color: #fff;
     text-align: center;
     padding-top: 32px;
     padding-bottom: 32px;
+    margin-bottom: 16px;
 }
 
 header h1,
@@ -24,11 +27,106 @@ header img{
     vertical-align: bottom;
 }
 
-h2{
-    background-color: #598392;
+
+/* メインコンテンツ */
+
+main{
+    background-color: #f4f4f4;
+    padding: 8px;
     text-align: center;
-    padding: 8px 0;
 }
+
+/* セクション共通 */
+section {
+    margin: auto;
+}
+
+
+
+/* 見出し */
+
+h2 {
+    width: 280px;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin: auto;
+    border-top: 6px double #598392;
+    border-bottom: 6px double #598392;
+}
+
+/* テーブル */
+
+table {
+    margin: 16px;
+    width : 300px;
+    border-collapse: collapse;
+    border: solid 2px #598392;/*表全体を線で囲う*/
+}
+
+table th,table td {
+    padding: 3px 10px;/*上下3pxで左右10px*/
+    border: dashed 1px #598392;/**/
+    /*破線 1px オレンジ*/
+}
+
+table th{
+    background-color: #124559;
+    color: #f4f4f4;
+}
+
+/* すきなものボックス */
+
+.likeBox {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #e9bad7;
+    border-radius: 8px;
+}
+.likeBox .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #f4f4f4;
+    color: #e9bad7;
+    font-weight: bold;
+}
+.likeBox p {
+    margin: 0; 
+    padding: 0;
+}
+
+/* にがてなものボックス */
+
+.dislikeBox {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #AEC3B0;
+    border-radius: 8px;
+}
+.dislikeBox .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #f4f4f4;
+    color: #AEC3B0;;
+    font-weight: bold;
+}
+.dislikeBox p {
+    margin: 0; 
+    padding: 0;
+}
+
+/* フッター */
 
 footer{
     padding: 32px 0;

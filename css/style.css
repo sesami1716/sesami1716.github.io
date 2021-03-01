@@ -25,8 +25,6 @@ header img{
     max-height: 200px;
     vertical-align: bottom;
 }
-
-
 /* メインコンテンツ */
 
 main{
@@ -34,6 +32,32 @@ main{
     padding: 8px;
     text-align: center;
 }
+
+/* メディアクエリー */
+@media (min-width: 900px){
+
+    .AboutMe .container{
+        display: flex;
+        width : 800px;
+        margin: 0 auto;
+    }
+
+    .Personality .container{
+        display: flex;
+        width : 800px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+}
+
+.AboutMe p{
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
 
 /* 見出し */
 
@@ -49,8 +73,8 @@ h2 {
 /* テーブル */
 
 table {
-    width : 75%;
-    margin: 2em auto;
+    width : 50%;
+    margin: 8px auto;
     border-collapse: collapse;
     border: solid 2px #598392;
 }
@@ -65,14 +89,14 @@ table th{
     color: #f4f4f4;
 }
 
-
 /* すきなものボックス */
 
 .likeBox {
-    width : 75%;
+    text-align: left;
+    width : 40%;
     position: relative;
     margin: 2em auto;
-    padding: 0.5em 1em;
+    padding: 1em 1em;
     border: solid 3px #e9bad7;
     border-radius: 8px;
 }
@@ -96,10 +120,11 @@ table th{
 /* にがてなものボックス */
 
 .dislikeBox {
-    width : 75%;
+    text-align: left;
+    width : 40%;
     position: relative;
     margin: 2em auto;
-    padding: 0.5em 1em;
+    padding: 1em 1em;
     border: solid 3px #AEC3B0;
     border-radius: 8px;
 }

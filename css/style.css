@@ -33,31 +33,11 @@ main{
     text-align: center;
 }
 
-/* メディアクエリー */
-@media (min-width: 900px){
-
-    .AboutMe .container{
-        display: flex;
-        width : 800px;
-        margin: 0 auto;
-    }
-
-    .Personality .container{
-        display: flex;
-        width : 800px;
-        margin: 0 auto;
-        justify-content: space-between;
-    }
-
-}
-
 .AboutMe p{
     width: 75%;
     margin: 0 auto;
     text-align: left;
 }
-
-
 
 /* 見出し */
 
@@ -93,7 +73,7 @@ table th{
 
 .likeBox {
     text-align: left;
-    width : 40%;
+    width : 75%;
     position: relative;
     margin: 2em auto;
     padding: 1em 1em;
@@ -121,7 +101,7 @@ table th{
 
 .dislikeBox {
     text-align: left;
-    width : 40%;
+    width : 75%;
     position: relative;
     margin: 2em auto;
     padding: 1em 1em;
@@ -143,6 +123,38 @@ table th{
 .dislikeBox p {
     margin: 0; 
     padding: 0;
+}
+
+/* メディアクエリー */
+@media (min-width: 900px){
+
+    .AboutMe .container{
+        display: flex;
+        width : 800px;
+        margin: 0 auto;
+    }
+
+    .Personality .container{
+        display: flex;
+        width : 800px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .likeBox {
+        width: 45%;
+    }
+
+    .dislikeBox{
+        width: calc(45% - 16px);
+    }
+
+}
+
+@media (max-width: 900px){
+    table {
+        width : 75%;
+    }
 }
 
 /* フッター */

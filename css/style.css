@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
     font-family: Arial,Verdana, sans-serif;
     color: #01161E;
 }
@@ -65,7 +65,7 @@ h2 {
     width: 280px;
     text-align: center;
     padding: 1rem 2rem;
-    margin: 32px auto;
+    margin: 48px auto;
     border-top: 6px double #598392;
     border-bottom: 6px double #598392;
 }

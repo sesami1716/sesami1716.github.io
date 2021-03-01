@@ -142,6 +142,8 @@ table th{
         margin: 0 auto;
     }
 
+
+
     .Personality .container{
         display: flex;
         width : 800px;
@@ -160,6 +162,12 @@ table th{
 }
 
 @media (max-width: 900px){
+    
+    .AboutMe img{
+        width: 30px;
+        height: 30px;
+    }
+
     table {
         width : 75%;
     }

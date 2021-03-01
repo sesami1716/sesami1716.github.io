@@ -33,11 +33,19 @@ main{
     text-align: center;
 }
 
-.AboutMe p{
+.text{
     width: 75%;
     margin: 0 auto;
     text-align: left;
 }
+
+.AboutMe img{
+    margin: 0;
+    width: 50px;
+    height: 50px;
+}
+
+
 
 /* 見出し */
 

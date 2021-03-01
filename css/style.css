@@ -162,11 +162,11 @@ table th{
 }
 
 @media (max-width: 900px){
-    
-    .AboutMe img{
+
+    /* .AboutMe img{
         width: 30px;
         height: 30px;
-    }
+    } */
 
     table {
         width : 75%;
